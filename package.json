@@ -1,0 +1,15 @@
+{
+  "name": "ng-avatar",
+  "version": "1.0.0",
+  "description": "Get your avatar by email",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Dimpu",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-md5": "^0.1.10"
+  }
+}
