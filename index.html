@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ngAvatar">
+<head>
+  <meta charset="UTF-8">
+  <title>ngAvatar</title>
+  <link rel="stylesheet" href="./css/style.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body ng-controller="AppCtrl as vm">
+    <h1 class="site"><em>ng</em>Avatar</h1>
+    <div class="box">
+      <img data-ng-src="//www.gravatar.com/avatar/{{vm.avatar}}?s=300"></img>
+    </div>
+    <input type="email" class="email" data-ng-model="vm.email" placeholder="Enter your email here!">
+  <script src="node_modules\angular\angular.min.js"></script>
+  <script src="node_modules\angular-md5\angular-md5.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
